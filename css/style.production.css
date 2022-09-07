@@ -109,9 +109,27 @@ Secondary Color (lightgray):#ded8d8;
       height: 250px; 
       margin-right: 2.2rem;
       border-radius: 50%;
-  
+
   }
-  
+
+      @media all and (max-width: 480px) {
+
+        .code__link, .profile__paragraph, .homepage__title {
+          display: block;
+          text-align: center;
+
+        }
+        
+      .profile__portrait{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      
+
+    }
+
   /*Index Main End*/
   
   /*Footer Start*/
