@@ -100,16 +100,27 @@ Secondary Color (lightgray):#ded8d8;
   
   .profile{
       
+      display: flex;
+      align-items: center;
       max-width: 700px;
+      gap: 2rem;
       margin: 0 auto;
   }
   
   .profile__portrait{ 
-      float: left;
-      height: 250px; 
-      margin-right: 2.2rem;
+      height: 35%; 
+      width: 35%;
       border-radius: 50%;
+  }
 
+  @media all and (max-width:40em){
+    .profile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      text-align: center;
+    }
   }
 
   /*Index Main End*/
