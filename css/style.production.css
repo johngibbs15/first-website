@@ -34,8 +34,7 @@ Secondary Color (lightgray):#ded8d8;
   }
   
   .logo{
-      width: 150px;
-      height: 150px;
+     width: 300px;
   }
   
   .navigation-list {
@@ -67,6 +66,8 @@ Secondary Color (lightgray):#ded8d8;
     display: flex;
     width: 100%;
     padding: 1.25em;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   
   .page-header__item{
@@ -88,20 +89,24 @@ Secondary Color (lightgray):#ded8d8;
   
   /*Index Main Start*/
   
-  h1 {
+  h1, {
     font-size: 2rem;
     font-weight: 700;
-    margin-top: 5%;
   }
   
-  .homepage__title{
-      margin-top: 18%;
+  .homepage__title, .profile__paragraph, .code__link{
+    text-align: center;
+  }
+
+  .code__link{
+    margin-left: 6.3em;
   }
   
   .profile{
       
       display: flex;
       align-items: center;
+      flex-direction: column;
       max-width: 700px;
       gap: 2rem;
       margin: 0 auto;
@@ -111,6 +116,7 @@ Secondary Color (lightgray):#ded8d8;
       height: 35%; 
       width: 35%;
       border-radius: 50%;
+      margin-top: 10%;
   }
 
   @media all and (max-width:40em){
