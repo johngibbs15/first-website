@@ -83,6 +83,7 @@ Secondary Color (lightgray):#ded8d8;
     text-align: right;
   }
   
+
   
   
   /*Header End*/
@@ -94,13 +95,16 @@ Secondary Color (lightgray):#ded8d8;
     font-weight: 700;
   }
   
-  .homepage__title, .profile__paragraph, .code__link{
+  .homepage__title, .profile__paragraph{
     text-align: center;
   }
 
-  .code__link{
-    margin-left: 6.3em;
-  }
+.code__link{
+  display: block;
+  text-align: center;
+}
+
+
   
   .profile{
       
@@ -126,6 +130,16 @@ Secondary Color (lightgray):#ded8d8;
       align-items: center;
       margin: 0 auto;
       text-align: center;
+    }
+
+    .logo{
+      width: 150px;
+    }
+
+    .navigation-list li {
+      display: inline-block;
+      margin-left: 1rem;
+      font-size: 1rem;
     }
   }
 
